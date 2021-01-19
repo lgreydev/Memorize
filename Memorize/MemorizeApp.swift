@@ -1,6 +1,6 @@
 //  Master
+//
 //  MemorizeApp.swift
-//  Memorize
 //
 //  Created by Sergey Lukaschuk on 14.01.2021.
 //
