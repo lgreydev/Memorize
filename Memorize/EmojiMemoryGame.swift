@@ -1,4 +1,4 @@
-//
+//  Stanford
 //  EmojiMemoryGame.swift
 //  Memorize
 //

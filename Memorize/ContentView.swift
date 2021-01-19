@@ -1,4 +1,4 @@
-//
+//  Stanford
 //  ContentView.swift
 //  Memorize
 //

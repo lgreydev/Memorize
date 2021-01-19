@@ -1,4 +1,4 @@
-//
+//  Stanford
 //  MemoryGame.swift
 //  Memorize
 //

@@ -1,4 +1,4 @@
-//
+//  Stanford
 //  MemorizeApp.swift
 //  Memorize
 //
