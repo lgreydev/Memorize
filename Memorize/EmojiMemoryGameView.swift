@@ -1,7 +1,6 @@
-//
+//  Bestkora
 //  EmojiMemoryGameView.swift
-//  Memorize
-//  Ok!
+//  
 //  Created by Sergey Lukaschuk on 14.01.2021.
 //
 
@@ -20,7 +19,7 @@ struct EmojiMemoryGameView: View {
         }
         .padding()
         .foregroundColor(Color.orange)
-        .font(viewModel.cards.count < 5 ? .largeTitle : .title3)
+        .font(viewModel.cards.count < 9 ? .largeTitle : .title3)
         .aspectRatio(contentMode: .fit)
     }
 }
