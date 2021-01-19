@@ -1,6 +1,6 @@
 //  Stanford
+//
 //  MemoryGame.swift
-//  Memorize
 //
 //  Created by Sergey Lukaschuk on 15.01.2021.
 //
