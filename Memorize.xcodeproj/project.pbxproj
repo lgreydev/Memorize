@@ -61,8 +61,8 @@
 			children = (
 				5EF8943525B08E97007685AA /* MemorizeApp.swift */,
 				5EF8943725B08E97007685AA /* EmojiMemoryGameView.swift */,
-				5EF8944525B1DF62007685AA /* MemoryGame.swift */,
 				5EF8944825B1E8A0007685AA /* EmojiMemoryGame.swift */,
+				5EF8944525B1DF62007685AA /* MemoryGame.swift */,
 				5EF8943925B08E9B007685AA /* Assets.xcassets */,
 				5EF8943E25B08E9B007685AA /* Info.plist */,
 				5EF8943B25B08E9B007685AA /* Preview Content */,

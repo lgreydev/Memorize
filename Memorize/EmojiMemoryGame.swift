@@ -9,7 +9,7 @@ import Foundation
 
 
 // The ViewModel
-class EmojiMemoryGame {
+class EmojiMemoryGame: ObservableObject {
     private var model: MemoryGame<String> = createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String> {
