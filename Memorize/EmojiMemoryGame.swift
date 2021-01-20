@@ -10,7 +10,7 @@ import Foundation
 
 // The ViewModel
 class EmojiMemoryGame: ObservableObject {
-    private var model: MemoryGame<String> = createMemoryGame()
+    @Published private var model: MemoryGame<String> = createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String> {
         let emojis: Array<String> = ["👻", "🎃", "🕷", "😈", "💩"]
@@ -32,9 +32,6 @@ class EmojiMemoryGame: ObservableObject {
         model.choose(card: card)
     }
 }
-
-
-
 
 
 
