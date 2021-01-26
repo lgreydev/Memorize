@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-// The View
+// View plus
+
 struct EmojiMemoryGameView: View {
     
     @ObservedObject var viewModel: EmojiMemoryGame

@@ -8,7 +8,8 @@
 import Foundation
 
 
-// The ViewModel
+// ViewModel
+
 class EmojiMemoryGame: ObservableObject {
     @Published private var model: MemoryGame<String> = createMemoryGame()
     
