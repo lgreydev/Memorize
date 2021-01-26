@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// View plus
+// View
 
 struct EmojiMemoryGameView: View {
     
