@@ -7,12 +7,12 @@ On this site, you will be able to find materials that were distributed to studen
 SwiftUI is brand new, having only shipped a few months before this course was taught.  Thus it may well be that by the time you are watching it, some of the course's content will already be out of date as updates to SwiftUI occur, requiring some adjustment as you watch.  That is normal for new technology.  See the Xcode 12 page for more on this.
 
 The material in this course was not developed with the involvement of, nor was it vetted by, anyone at Apple, so it should not be perceived as "the truth" for how to develop using SwiftUI.  We've done our best to understand this technology ourselves in the short time it has been out and then share what we've learned.  Enjoy!
-
+[CS193p](https://cs193p.sites.stanford.edu)
 
 
 
 **Lecture 1**
-Course Logistics and Intro to SwiftUI 
+[Course Logistics and Intro to SwiftUI](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf)
 
 **Lecture 2**
 MVVM and the Swift Type System
