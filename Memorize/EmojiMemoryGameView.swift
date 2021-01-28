@@ -19,12 +19,13 @@ struct EmojiMemoryGameView: View {
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
                 }
+                .aspectRatio(2/3, contentMode: .fit)
             }
         }
         .padding()
         .foregroundColor(Color.orange)
         .font(viewModel.cards.count < 9 ? .largeTitle : .title3)
-        .aspectRatio(contentMode: .fit)
+//        .aspectRatio(contentMode: .fit)
     }
 }
 
