@@ -10,7 +10,7 @@ The material in this course was not developed with the involvement of, nor was i
 
 **Lecture 1**<br>
 After going over the mechanics of how the course works, this first lecture dives right into creating an iOS application (a card-matching game called Memorize).  The Xcode development environment is used to demonstrate the basics of SwiftUI's declarative approach to composing user-interfaces.<br>
-[Watch Video](https://www.youtube.com/watch?v=jbtqIBpUG7g&feature=youtu.be)<br>
+[Watch Video](https://youtu.be/jbtqIBpUG7g)<br>
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf)
 
 
@@ -20,3 +20,12 @@ Conceptual overview of the architectural paradigm underlying the development of 
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br>
 [Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r1.pdf)<br>
 [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf)
+
+
+
+**Lecture 3**<br>
+Reactive UI Protocols Layout
+Now that MVVM has been applied to Memorize, we can use the reactive nature of SwiftUI to make the cards flip over by processing multitouch events, updating our Model through our ViewModel and having our UI stay in sync with our Model at all times.  An important concept, protocols, is covered in more detail as well as the basics about how to lay out Views in the UI.<br>
+[Watch Video](https://youtu.be/SIYdYpPXil4)<br>
+[Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf)
+
