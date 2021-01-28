@@ -8,7 +8,8 @@
 import Foundation
 
 
-// The ViewModel
+// ViewModel
+
 class EmojiMemoryGame {
     private var model: MemoryGame<String> = createMemoryGame()
     
@@ -18,7 +19,6 @@ class EmojiMemoryGame {
             return emojis[pairIndex]
         }
     }
-    
     
     // MARK: - Access to the Model
     

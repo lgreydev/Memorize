@@ -8,7 +8,8 @@
 import Foundation
 
 
-// The Model
+// Model
+
 struct MemoryGame<CardContent> {
     var cards: Array<Card>
     
