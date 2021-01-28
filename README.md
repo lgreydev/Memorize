@@ -1,5 +1,4 @@
-# STANFORD
-**CS193p Developing iOS Apps Using SwiftUI**
+# STANFORD <br> CS193p Developing iOS Apps Using SwiftUI
 
 Stanford's CS193p course, Developing Applications for iOS, explains the fundamentals of how to build applications for iPhone and iPad using SwiftUI.  Most recently offered in Spring quarter 2020, the lectures were given to Stanford students in an on-line format due to the novel coronavirus pandemic and are now available to all via Stanford's YouTube channel.
 
@@ -8,6 +7,9 @@ On this site, you will be able to find materials that were distributed to studen
 SwiftUI is brand new, having only shipped a few months before this course was taught.  Thus it may well be that by the time you are watching it, some of the course's content will already be out of date as updates to SwiftUI occur, requiring some adjustment as you watch.  That is normal for new technology.  See the Xcode 12 page for more on this.
 
 The material in this course was not developed with the involvement of, nor was it vetted by, anyone at Apple, so it should not be perceived as "the truth" for how to develop using SwiftUI.  We've done our best to understand this technology ourselves in the short time it has been out and then share what we've learned.  Enjoy!
+
+
+
 
 **Lecture 1**
 Course Logistics and Intro to SwiftUI 
