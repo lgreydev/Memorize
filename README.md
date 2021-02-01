@@ -33,10 +33,10 @@ Now that MVVM has been applied to Memorize, we can use the reactive nature of Sw
 Grid enum Optionals
 The survey of the Swift type system completes with a discussion of enum.  An important language construct, Optionals, is both explained in slides and then demonstrated in Memorize as we fully implement the logic of the game.
 [Watch Video](https://youtu.be/eHEeWzFP6O4)<br>
-[Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l4.pdf)
-[GridLayout.swift](https://web.stanford.edu/class/cs193p/Spring2020/GridLayout.swift.zip)
-[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r2_0.pdf)
-[Assignment 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a2_0.pdf)
+[Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l4.pdf)<br>
+[GridLayout.swift](https://web.stanford.edu/class/cs193p/Spring2020/GridLayout.swift.zip)<br>
+[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r2_0.pdf)<br>
+[Assignment 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a2_0.pdf)<br>
 
 
 
