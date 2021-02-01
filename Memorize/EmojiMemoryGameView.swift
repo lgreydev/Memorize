@@ -1,4 +1,4 @@
-//  Stanford
+//  Master
 //
 //  EmojiMemoryGameView.swift
 //
@@ -47,18 +47,13 @@ struct CardView: View {
         .font(Font.system(size: fontSize(for: size)))
     }
     
-    
    // MARK: Control Panel
     
     let cornerRadius: CGFloat = 10.0
     let edgeLineWidth: CGFloat = 3.0
-    
     func fontSize(for size: CGSize) -> CGFloat {
         min(size.width, size.height) * 0.75
     }
-    
-    
-    
 }
 
 

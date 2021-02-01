@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-//  Stanford
-=======
 //  Master
->>>>>>> main
 //
 //  MemorizeApp.swift
 //
