@@ -1,4 +1,4 @@
-//  Master 😎😎😎
+//  Master 😎
 //
 //  MemoryGame.swift
 //
