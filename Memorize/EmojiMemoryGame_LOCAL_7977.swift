@@ -1,4 +1,4 @@
-//  Master
+//  Stanford
 //
 //  EmojiMemoryGame.swift
 //

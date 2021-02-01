@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+//  Stanford
+=======
 //  Master
+>>>>>>> main
 //
 //  EmojiMemoryGame.swift
 //
