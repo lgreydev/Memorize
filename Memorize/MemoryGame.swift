@@ -1,4 +1,4 @@
-//  Bestkora 😱
+//  beta2
 //
 //  MemoryGame.swift
 //

@@ -1,4 +1,4 @@
-//  Bestkora
+//  beta2
 //
 //  EmojiMemoryGameView.swift
 //  
