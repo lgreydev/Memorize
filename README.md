@@ -38,5 +38,7 @@ The survey of the Swift type system completes with a discussion of enum.  An imp
 [Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r2_0.pdf)<br>
 [Assignment 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a2_0.pdf)<br>
 
+## Lecture 5
+
 
 
