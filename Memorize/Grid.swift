@@ -9,8 +9,13 @@ import SwiftUI
 
 struct Grid<Item, ItemView>: View {
     
-    var item: [Item]
+    var items: [Item]
     var viewForItem: (Item) -> ItemView
+    
+    init(_ item: [Item], viewForItem: @escaping (Item) -> ItemView) {
+        self.items = item
+        self.viewForItem = viewForItem
+    }
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
