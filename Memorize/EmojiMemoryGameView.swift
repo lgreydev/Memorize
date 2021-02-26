@@ -21,7 +21,8 @@ struct EmojiMemoryGameView: View {
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
                 }
-                .aspectRatio(2/3, contentMode: .fit)
+                .padding(5)
+//                .aspectRatio(2/3, contentMode: .fit)
             
             /*
             ForEach(viewModel.cards) { card in
@@ -38,6 +39,8 @@ struct EmojiMemoryGameView: View {
 //        .aspectRatio(contentMode: .fit)
     }
 }
+
+
 
 struct CardView: View {
     var card: MemoryGame<String>.Card
