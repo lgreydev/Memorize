@@ -16,7 +16,6 @@ struct EmojiMemoryGameView: View {
     var body: some View {
         HStack {
             
-            
             Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
