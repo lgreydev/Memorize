@@ -18,8 +18,10 @@ struct Grid<Item, ItemView>: View where Item: Identifiable, ItemView: View {
     }
     
     var body: some View {
-        ForEach(items) { item in
-            viewForItem(item)
+        GeometryReader { geometry in
+            ForEach(items) { item in
+                viewForItem(item)
+            }
         }
     }
 }
