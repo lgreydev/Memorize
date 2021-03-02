@@ -19,19 +19,18 @@ struct Grid<Item, ItemView>: View where Item: Identifiable, ItemView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            body(for: geometry.size)
+            return body(for: geometry.size)
         }
-        
-        func body(for size: CGSize) -> some View {
-            ForEach(items) { item in
-                body(for: item, in: size)
-            }
+    }
+    
+    func body(for size: CGSize) -> some View {
+        ForEach(items) { item in
+            body(for: item, in: size)
         }
-        
-        func body(for item: Item, in size: CGSize) -> some View {
-            return viewForItem(item)
-        }
-        
+    }
+    
+    func body(for item: Item, in size: CGSize) -> some View {
+        return viewForItem(item)
     }
 }
 
