@@ -17,7 +17,6 @@ struct EmojiMemoryGameView: View {
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
                 }
-//                .aspectRatio(2/3, contentMode: .fit)
         }
         .padding()
         .foregroundColor(Color.orange)
