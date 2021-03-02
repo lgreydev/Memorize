@@ -8,15 +8,13 @@ SwiftUI is brand new, having only shipped a few months before this course was ta
 
 The material in this course was not developed with the involvement of, nor was it vetted by, anyone at Apple, so it should not be perceived as "the truth" for how to develop using SwiftUI.  We've done our best to understand this technology ourselves in the short time it has been out and then share what we've learned.  Enjoy!
 
-### Lecture 1
-#### Course Logistics and Intro to SwiftUI
+### Lecture 1 – Course Logistics and Intro to SwiftUI
 After going over the mechanics of how the course works, this first lecture dives right into creating an iOS application (a card-matching game called Memorize).  The Xcode development environment is used to demonstrate the basics of SwiftUI's declarative approach to composing user-interfaces.<br>
 [Watch Video](https://youtu.be/jbtqIBpUG7g)<br>
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l1.pdf)
 
 
-### MVVM and the Swift Type System - Lecture 2
-### Lecture 2 - MVVM and the Swift Type System
+### Lecture 2 – MVVM and the Swift Type System
 Conceptual overview of the architectural paradigm underlying the development of applications for iOS using SwiftUI: MVVM.  In addition, a key underpinning of the Swift Programming Language, its type system, is explained.  The Memorize demonstration continues, incorporating MVVM.<br>
 [Watch Video](https://youtu.be/4GjXq2Sr55Q)<br>
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l2.pdf)<br>
@@ -24,15 +22,13 @@ Conceptual overview of the architectural paradigm underlying the development of 
 [Assignment 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a1.pdf)
 
 
-## Lecture 3
-#### Reactive UI Protocols Layout
+### Lecture 3 – Reactive UI Protocols Layout
 Now that MVVM has been applied to Memorize, we can use the reactive nature of SwiftUI to make the cards flip over by processing multitouch events, updating our Model through our ViewModel and having our UI stay in sync with our Model at all times.  An important concept, protocols, is covered in more detail as well as the basics about how to lay out Views in the UI.<br>
 [Watch Video](https://youtu.be/SIYdYpPXil4)<br>
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l3_0.pdf)
 
 
-## Lecture 4
-#### Grid enum Optionals
+### Lecture 4 – Grid enum Optionals
 The survey of the Swift type system completes with a discussion of enum.  An important language construct, Optionals, is both explained in slides and then demonstrated in Memorize as we fully implement the logic of the game.<br>
 [Watch Video](https://youtu.be/eHEeWzFP6O4)<br>
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/l4.pdf)<br>
