@@ -17,9 +17,10 @@ struct EmojiMemoryGameView: View {
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
                 }
+                .padding(5)
         }
-        .padding()
-        .foregroundColor(Color.orange)
+                .padding()
+                .foregroundColor(Color.orange)
     }
 }
 
@@ -45,6 +46,7 @@ struct CardView: View {
     }
     
    // MARK: Control Panel
+    
     let cornerRadius: CGFloat = 10.0
     let edgeLineWidth: CGFloat = 3.0
     func fontSize(for size: CGSize) -> CGFloat {
