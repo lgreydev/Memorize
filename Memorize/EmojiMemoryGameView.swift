@@ -13,13 +13,11 @@ struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-        HStack {
-            ForEach(viewModel.cards) { card in
+        Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
                 }
-                .aspectRatio(2/3, contentMode: .fit)
-            }
+//                .aspectRatio(2/3, contentMode: .fit)
         }
         .padding()
         .foregroundColor(Color.orange)
@@ -48,7 +46,6 @@ struct CardView: View {
     }
     
    // MARK: Control Panel
-    
     let cornerRadius: CGFloat = 10.0
     let edgeLineWidth: CGFloat = 3.0
     func fontSize(for size: CGSize) -> CGFloat {
