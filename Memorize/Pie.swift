@@ -11,7 +11,7 @@ struct Pie: Shape {
     
     var startAngle: Angle
     var endAngle: Angle
-    var clockwise: Bool = true
+    var clockwise: Bool
     
     func path(in rect: CGRect) -> Path {
         let center = CGPoint(x: rect.midX, y: rect.midY)
