@@ -20,6 +20,9 @@ The material in this course was not developed with the involvement of, nor was i
     - [Reactive UI Protocols Layout](#Reactive-UI-Protocols-Layout)
 - [Lecture 4](#Lecture-4)
     - [Grid enum Optionals](#Grid-enum-Optionals)
+- [Lecture 5](#Lecture-5)
+        - [ViewBuilder Shape ViewModifier](#ViewBuilder-Shape-ViewModifier)
+
 
 
 
