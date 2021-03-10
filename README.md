@@ -58,3 +58,12 @@ The survey of the Swift type system completes with a discussion of enum.  An imp
 [Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/r2_0.pdf)<br>
 [Assignment 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/a2_0.pdf)<br>
 
+
+
+## Lecture 5
+### ViewBuilder Shape ViewModifier
+Access Control.  More about drawing, including the @ViewBuilder construct for expressing a conditional list of Views, the Shape protocol for custom drawing and ViewModifier, a mechanism for making incremental modifications to Views.
+[Watch Video](https://youtu.be/oDKDGCRdSHc)<br>
+[Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_5.pdf)<br>
+
+
