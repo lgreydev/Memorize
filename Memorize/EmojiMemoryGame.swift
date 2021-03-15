@@ -11,6 +11,7 @@ import Foundation
 // ViewModel
 
 class EmojiMemoryGame: ObservableObject {
+    
     @Published private var model: MemoryGame<String> = createMemoryGame()
     
     private static func createMemoryGame() -> MemoryGame<String> {

@@ -44,6 +44,8 @@ struct CardView: View {
                     .padding(5).opacity(0.4)
                 Text(card.content)
                     .font(Font.system(size: fontSize(for: size)))
+                    .rotationEffect(Angle.degrees(card.isMatched ? 180.0 : 0.0))
+                    .animation(Animation.linear(duration: 1.0))
             }
             .cardify(isFaceUp: card.isFaceUp)
         }
