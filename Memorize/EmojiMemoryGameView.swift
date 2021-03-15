@@ -14,16 +14,24 @@ struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-        HStack {
+        VStack {
             Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
-                    viewModel.choose(card: card)
+                    withAnimation(.linear(duration: 2)) {
+                        viewModel.choose(card: card)
+                    }
                 }
                 .padding(5)
             }
-        }
         .padding()
         .foregroundColor(Color.orange)
+            
+            Button {
+                withAnimation(.easeInOut(duration: 2)) {
+                    viewModel.resetGame()
+                }
+            } label: { Text("New Game") }
+        }
     }
 }
 
@@ -48,6 +56,7 @@ struct CardView: View {
                     .animation(card.isMatched ? Animation.linear(duration: 1.0).repeatForever(autoreverses: false) : .default)
             }
             .cardify(isFaceUp: card.isFaceUp)
+            .transition(AnyTransition.scale)
         }
     }
     
