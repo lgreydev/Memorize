@@ -17,7 +17,7 @@ struct EmojiMemoryGameView: View {
         VStack {
             Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
-                    withAnimation(.linear) {
+                    withAnimation(.linear(duration: 0.75)) {
                         viewModel.choose(card: card)
                     }
                 }
@@ -27,7 +27,7 @@ struct EmojiMemoryGameView: View {
         .foregroundColor(Color.orange)
             
             Button {
-                withAnimation(.easeInOut) {
+                withAnimation(.easeInOut(duration: 0.75)) {
                     viewModel.resetGame()
                 }
             } label: { Text("New Game") }
