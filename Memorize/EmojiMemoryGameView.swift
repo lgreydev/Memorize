@@ -24,7 +24,9 @@ struct EmojiMemoryGameView: View {
                     .foregroundColor(Color.orange)
             
             Button("New Game") {
-                viewModel.resetGame()
+                withAnimation(.easeInOut(duration: 2)) {
+                    viewModel.resetGame()
+                }
             }
         }
     }
