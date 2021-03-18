@@ -11,6 +11,7 @@ import Foundation
 // ViewModel
 
 class EmojiMemoryGame: ObservableObject {
+    
     @Published private var model: MemoryGame<String> = createMemoryGame()
     
     private static func createMemoryGame() -> MemoryGame<String> {
@@ -31,6 +32,10 @@ class EmojiMemoryGame: ObservableObject {
     
     func choose(card: MemoryGame<String>.Card) {
         model.choose(card: card)
+    }
+    
+    func resetGame() {
+        model = EmojiMemoryGame.createMemoryGame()
     }
 }
 
