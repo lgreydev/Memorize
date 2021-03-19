@@ -22,6 +22,8 @@ The material in this course was not developed with the involvement of, nor was i
     - [Grid enum Optionals](#Grid-enum-Optionals)
 - [Lecture 5](#Lecture-5)
     - [ViewBuilder Shape ViewModifier](#ViewBuilder-Shape-ViewModifier)
+- [Lecture 6](#Lecture-6)
+    - [Animation](#Animation)
 
 
 
