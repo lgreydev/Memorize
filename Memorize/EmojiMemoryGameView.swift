@@ -42,17 +42,22 @@ struct CardView: View {
         }
     }
     
+    @State private var animateBonusRemaining: Double = 0
+    
     @ViewBuilder
     func body(for size: CGSize) -> some View {
         if card.isFaceUp || !card.isMatched {
             ZStack {
-                Pie(
-                    startAngle: Angle(degrees: 0 - 90),
-                    endAngle: Angle(degrees: 110 - 90),
-                    clockwise: true
-                )
-                .padding(5)
-                .opacity(0.4)
+                if card.isConsumingBonusTime {
+                    Pie(
+                        startAngle: Angle(degrees: 0 - 90),
+                        endAngle: Angle(degrees: -animateBonusRemaining * 360 - 90),
+                        clockwise: true
+                    )
+                    .padding(5)
+                    .opacity(0.4)
+                }
+                
                 Text(card.content)
                     .font(Font.system(size: fontSize(for: size)))
                     .rotationEffect(Angle.degrees(card.isMatched ? 360 : 0))
