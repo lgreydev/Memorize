@@ -44,6 +44,10 @@ struct CardView: View {
     
     @State private var animateBonusRemaining: Double = 0
     
+    private func startBonusTimeAnimation() {
+        animateBonusRemaining = card.bonusRemaining
+    }
+    
     @ViewBuilder
     func body(for size: CGSize) -> some View {
         if card.isFaceUp || !card.isMatched {
@@ -56,6 +60,9 @@ struct CardView: View {
                     )
                     .padding(5)
                     .opacity(0.4)
+                    .onAppear {
+                        startBonusTimeAnimation()
+                    }
                 }
                 
                 Text(card.content)
