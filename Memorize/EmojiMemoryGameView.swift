@@ -55,18 +55,26 @@ struct CardView: View {
     func body(for size: CGSize) -> some View {
         if card.isFaceUp || !card.isMatched {
             ZStack {
-                if card.isConsumingBonusTime {
-                    Pie(
-                        startAngle: Angle(degrees: 0 - 90),
-                        endAngle: Angle(degrees: -animateBonusRemaining * 360 - 90),
-                        clockwise: true
-                    )
-                    .padding(5)
-                    .opacity(0.4)
-                    .onAppear {
-                        startBonusTimeAnimation()
+                Group {
+                    if card.isConsumingBonusTime {
+                        Pie(
+                            startAngle: Angle(degrees: 0 - 90),
+                            endAngle: Angle(degrees: -animateBonusRemaining * 360 - 90),
+                            clockwise: true
+                        )
+                        .onAppear {
+                            startBonusTimeAnimation()
+                        }
+                    } else {
+                        Pie(
+                            startAngle: Angle(degrees: 0 - 90),
+                            endAngle: Angle(degrees: -card.bonusRemaining * 360 - 90),
+                            clockwise: true
+                        )
                     }
                 }
+                .padding(5)
+                .opacity(0.4)
                 
                 Text(card.content)
                     .font(Font.system(size: fontSize(for: size)))
@@ -77,8 +85,8 @@ struct CardView: View {
             .transition(AnyTransition.scale)
         }
     }
-
-   // MARK: Control Panel
+    
+    // MARK: Control Panel
     
     private func fontSize(for size: CGSize) -> CGFloat {
         min(size.width, size.height) * 0.70
