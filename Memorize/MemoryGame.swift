@@ -51,10 +51,27 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
     }
     
     struct Card: Identifiable {
-        var isFaceUp = false
-        var isMatched = false
+        
+        var isFaceUp = false {
+            didSet {
+                if isFaceUp {
+                    startUsingBonusTime()
+                } else {
+                    stopUsingBonusTime()
+                }
+            }
+        }
+        
+        var isMatched = false {
+            didSet {
+                stopUsingBonusTime()
+            }
+        }
+        
         var content: CardContent
         var id: Int
+        
+        
         
         // MARK: - Bonus Time
         
@@ -108,7 +125,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         }
         
         // called when the card goes back face down (or gets matched)
-        private mutating func stopUsingTime() {
+        private mutating func stopUsingBonusTime() {
             pastFaceUpTime = faceUpTime
             lastFaceUpDate = nil
         }
