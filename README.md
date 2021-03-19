@@ -70,3 +70,16 @@ Access Control.  More about drawing, including the @ViewBuilder construct for ex
 [Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_5.pdf)<br>
 
 
+## Lecture 6
+### Animation
+@State (temporary state in a View) and property observers.  Deep dive into animation, including implicit vs. explicit animations, transitions, Shape animations, animating ViewModifiers and more.  Animate flipping of cards, new game and “pie” bonus countdown.<br>
+[Watch Video](https://youtu.be/3krC2c56ceQ)<br>
+[Slides](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/lecture_6.pdf)<br>
+[Reading 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_3.pdf)<br>
+[Assignment 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_3.pdf)<br>
+
+
+
+
+
+
