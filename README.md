@@ -3,6 +3,11 @@
 
 # STANFORD <br> CS193p Developing iOS Apps Using SwiftUI
 
+
+<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen1.png" width="200">
+
+
+
 [Stanford's CS193p course](https://cs193p.sites.stanford.edu), Developing Applications for iOS, explains the fundamentals of how to build applications for iPhone and iPad using SwiftUI.  Most recently offered in Spring quarter 2020, the lectures were given to Stanford students in an on-line format due to the novel coronavirus pandemic and are now available to all via Stanford's YouTube channel.
 
 On this site, you will be able to find materials that were distributed to students during the quarter such as homework assignment write-ups and demo code.  Unfortunately, we cannot offer any of the same kind of direct support we gave our students (on-line Q&A and office hours with teaching staff, homework grading, etc.), but the materials posted here should still be helpful in understanding the lectures as you watch.  As we emphasize to our students, doing the homework assignments is absolutely essential to learning the material in this course.
