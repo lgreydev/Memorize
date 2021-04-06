@@ -13,6 +13,10 @@
 		5E7B372425EE8BD300D22BED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B372325EE8BD300D22BED /* README.md */; };
 		5E7B372725EEA6B600D22BED /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B372625EEA6B600D22BED /* Array+Identifiable.swift */; };
 		5E7B372B25EFDDC700D22BED /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B372A25EFDDC700D22BED /* Array+Only.swift */; };
+		5E8DB799261D030300661103 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DB795261D030200661103 /* screen2.png */; };
+		5E8DB79A261D030300661103 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DB796261D030200661103 /* screen1.png */; };
+		5E8DB79B261D030300661103 /* screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DB797261D030200661103 /* screen3.png */; };
+		5E8DB79C261D030300661103 /* screen4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8DB798261D030300661103 /* screen4.png */; };
 		5EA86C7825F903BE00526E6C /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA86C7725F903BE00526E6C /* Pie.swift */; };
 		5EA86C7C25F93C6300526E6C /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA86C7B25F93C6300526E6C /* Cardify.swift */; };
 		5EF8943625B08E97007685AA /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8943525B08E97007685AA /* MemorizeApp.swift */; };
@@ -30,6 +34,10 @@
 		5E7B372325EE8BD300D22BED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E7B372625EEA6B600D22BED /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		5E7B372A25EFDDC700D22BED /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		5E8DB795261D030200661103 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		5E8DB796261D030200661103 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		5E8DB797261D030200661103 /* screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen3.png; sourceTree = "<group>"; };
+		5E8DB798261D030300661103 /* screen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen4.png; sourceTree = "<group>"; };
 		5EA86C7725F903BE00526E6C /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		5EA86C7B25F93C6300526E6C /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		5EF8943225B08E97007685AA /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,9 +61,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E8DB794261D02B200661103 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				5E8DB796261D030200661103 /* screen1.png */,
+				5E8DB795261D030200661103 /* screen2.png */,
+				5E8DB797261D030200661103 /* screen3.png */,
+				5E8DB798261D030300661103 /* screen4.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		5EF8942925B08E96007685AA = {
 			isa = PBXGroup;
 			children = (
+				5E8DB794261D02B200661103 /* Screenshot */,
 				5E4B137C25B387EE00A0822F /* .gitignore */,
 				5E7B372325EE8BD300D22BED /* README.md */,
 				5EF8943425B08E97007685AA /* Memorize */,
@@ -156,8 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8DB79B261D030300661103 /* screen3.png in Resources */,
 				5EF8943D25B08E9B007685AA /* Preview Assets.xcassets in Resources */,
+				5E8DB79C261D030300661103 /* screen4.png in Resources */,
+				5E8DB79A261D030300661103 /* screen1.png in Resources */,
 				5E4B137D25B387EE00A0822F /* .gitignore in Resources */,
+				5E8DB799261D030300661103 /* screen2.png in Resources */,
 				5E7B372425EE8BD300D22BED /* README.md in Resources */,
 				5EF8943A25B08E9B007685AA /* Assets.xcassets in Resources */,
 			);
