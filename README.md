@@ -1,10 +1,7 @@
 # STANFORD <br> CS193p Developing iOS Apps Using SwiftUI
 
 
-<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen1.png" width="175">
-<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen2.png" width="175">
-<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen3.png" width="175">
-<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen4.png" width="175">
+<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen1.png" width="175"><img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen2.png" width="175"><img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen3.png" width="175"><img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen4.png" width="175">
 
 
 ### Functional
