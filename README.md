@@ -1,10 +1,14 @@
-### App on development stage...
-
-
 # STANFORD <br> CS193p Developing iOS Apps Using SwiftUI
 
 
 <img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen1.png" width="200">
+<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen2.png" width="200">
+<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen3.png" width="200">
+<img src="https://github.com/lgreydev/Memorize/blob/main/Screenshot/screen4.png" width="200">
+
+
+### Functional
+You need to guess two identical cards. If the cards are correct, they disappear. For cards added animation with a timer.
 
 
 
